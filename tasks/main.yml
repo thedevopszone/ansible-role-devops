@@ -4,3 +4,6 @@
     update_cache: yes
     pkg:
     - vim
+    - ansible
+    - wget
+    - python3
