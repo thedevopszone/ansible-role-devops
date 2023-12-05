@@ -1,9 +1,14 @@
 ---
 - name: Install a list of packages
-  ansible.builtin.apt:
+  ansible.builtin.yum:
     update_cache: yes
     pkg:
     - vim
     - ansible
     - wget
     - python3
+    - python3-pip
+    - python3-virtualenv
+    - tree
+    - podman
+    - git
